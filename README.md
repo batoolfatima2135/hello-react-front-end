@@ -68,90 +68,37 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-```
-    ruby >= 3.2.0
-    rails >= 7.0
-    postgres >- 15.3
-    node
-```
+* GitHub
+* Code Editor
+* npm
 
 ### Setup
 
 Clone this repository to your desired folder:
+<code>
+  git clone https://github.com/batoolfatima2135/hello-react-front-end
+  cd book-store
+</code>
 
-```bash
-  git clone https://github.com/batoolfatima2135/hello-hello-rails-front-end
-```
-
-You need to setup database for these project
-
-```
-  development = hello_rails_frontend_dev
-  test        = hello_rails_frontend_test
-  production  = hello_rails_frontend_prod
-```
-
-or you can use your own database and change the ```config/database.yml```
-
-```yml
-  default: &default
-    adapter: postgresql
-    encoding: unicode
-    pool: 5
-    username: [your_username]
-    password: [your_password]
-    host: localhost
-
-  development:
-    <<: *default
-    database: [your_database_for_development]
-
-  test:
-    <<: *default
-    database: [your_database_for_test]
-
-  production:
-    <<: *default
-    database: [your_database_for_production]
-```
 
 ### Install
 
 Install this project with:
 
-```bash
-  cd hello_rails_frontend
-  bundle install
-  npm install
-```
+* npm install
 
-it will install the required gemfile for running the project
 
-### Usage
+### Run tests
 
-to use this project:
+Coming soon
 
-```bash
-   npm run build
-   bin/rails server
-```
+### Deployment <a name="deployment"></a>
 
-it will run the the server on ```localhost:3000```
-
-<!-- ### Test
-
-to run test in these this project:
-
-```ruby
-   rspec
-```
-
-it will run the all the unit test of these project
-
- -->
+You can deploy this project using: GitHub Pages or render
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- AUTHORS -->
 
 
 ## 👥 Author <a name="author"></a>
