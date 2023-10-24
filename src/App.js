@@ -1,19 +1,19 @@
-import { Route, Routes } from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
-import './App.css';
+import { Route, Routes, NavLink } from 'react-router-dom';
 import Greeting from './components/Greeting';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="App">
-       <NavLink to="/greeting">
-           greeting
-       </NavLink>
+      <NavLink to="/greeting">
+        greeting
+      </NavLink>
       <Routes>
-        <Route path = '/greeting' element={<Greeting />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/greeting" element={<Greeting />} />
       </Routes>
     </div>
-   
+
   );
 }
 
